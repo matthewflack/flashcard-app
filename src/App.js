@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
+import FlashcardList from './FlashcardList';
+import './app.css'
 
 function App() {
-  const [flashcards, setFlashcards = useState(SAMPLE_FLASHCARDS))]
+  const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS);
   return (
-    <div>
-      <h1>Hello World</h1>
-      {flashcards}
-    </div>  
+    <FlashcardList flashcards={flashcards}/>
   );
 }
 
@@ -14,7 +13,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id:1,
     question:'What is 2 + 2',
-    answer: '4',
+    answer: 'The answer is 4',
     options:[
       '2',
       '3',
@@ -24,12 +23,12 @@ const SAMPLE_FLASHCARDS = [
   },
   {
     id:2,
-    question:'Question 2',
-    answer: 'Answer',
+    question:'What is 3 x 3?',
+    answer: 'The answer is 9',
     options:[
-      'Answer',
-      'Answer 1',
-      'Answer 2',
+      '6',
+      '12',
+      '9',
       '5'
     ]
   }
