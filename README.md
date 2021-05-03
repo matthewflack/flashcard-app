@@ -57,6 +57,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+Just Following along with Web Dev Simplified. https://www.youtube-nocookie.com/embed/hEtZ040fsD8?autoplay=1&iv_load_policy=3&loop=1&modestbranding=1&playlist=hEtZ040fsD8
+
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
